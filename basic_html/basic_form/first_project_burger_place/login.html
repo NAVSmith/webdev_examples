@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Password Input</title>
+  </head>
+  <body>
+    <section id="overlay">
+      <img src="./images/burger-logo.svg" alt="Davie's Burgers Logo" id="logo">
+      <hr>
+      <form>
+        <h1>Welcome to Davie's Burgers</h1>
+        <p>Login to start creating a burger!</p>
+        <label for="username">Username:</label>
+  			<input type="text" name="username" id="username" minlength="5" maxlength="32" pattern="[a-zA-Z0-9]+" required>
+        <br>
+        <label for="user-pw">Password:</label>
+        <input type="password" name="user-pw" id="user-pw" minlength="6" maxlength="30" required>
+        <hr>
+        <input type="submit" value="submit">
+      </form>
+    </section>
+  </body>
+</html>
